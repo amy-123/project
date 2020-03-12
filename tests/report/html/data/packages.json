@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_login_token_book",
+    "children" : [ {
+      "name" : "test_login_book[datas0]",
+      "uid" : "f821365fc69ec2e3",
+      "parentUid" : "c8cc77653cf12f5c59906e43e1d0d504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583905295452,
+        "stop" : 1583905295650,
+        "duration" : 198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'caseID': 'book_001', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Selenium3自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+    }, {
+      "name" : "test_login_book[datas1]",
+      "uid" : "510f8e829453422b",
+      "parentUid" : "c8cc77653cf12f5c59906e43e1d0d504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583905295663,
+        "stop" : 1583905295977,
+        "duration" : 314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'caseID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': '', '请求参数': '{\"author\":\"wu\",\"done\":true,\"name\":\"接口测试自动化\"}', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+    }, {
+      "name" : "test_login_book[datas2]",
+      "uid" : "95c43d990edc3491",
+      "parentUid" : "c8cc77653cf12f5c59906e43e1d0d504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583905295987,
+        "stop" : 1583905296170,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'caseID': 'book_003', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '接口测试自动化', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+    }, {
+      "name" : "test_login_book[datas3]",
+      "uid" : "37dacd26fe3e64b9",
+      "parentUid" : "c8cc77653cf12f5c59906e43e1d0d504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583905296180,
+        "stop" : 1583905296361,
+        "duration" : 181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'caseID': 'book_004', '模块': '书籍管理系统', '接口名称': '编辑信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': '', '请求参数': '{\"author\":\"大神\",\"done\":true,\"name\":\"孤独终老\"}', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+    }, {
+      "name" : "test_login_book[datas4]",
+      "uid" : "2407bb523dbed394",
+      "parentUid" : "c8cc77653cf12f5c59906e43e1d0d504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583905296370,
+        "stop" : 1583905296523,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'caseID': 'book_005', '模块': '书籍管理系统', '接口名称': '删除信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+    } ],
+    "uid" : "c8cc77653cf12f5c59906e43e1d0d504"
+  } ]
+}

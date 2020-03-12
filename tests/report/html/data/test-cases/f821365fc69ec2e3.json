@@ -1,0 +1,187 @@
+{
+  "uid" : "f821365fc69ec2e3",
+  "name" : "test_login_book[datas0]",
+  "fullName" : "test_login_token_book#test_login_book",
+  "historyId" : "6eba89be57aaa519c6c26b29871e1dd6",
+  "time" : {
+    "start" : 1583905295452,
+    "stop" : 1583905295650,
+    "duration" : 198
+  },
+  "description" : "获取excel中的请求参数并做序列化",
+  "descriptionHtml" : "<p>获取excel中的请求参数并做序列化</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1583905295448,
+      "stop" : 1583905295449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1583905295449,
+      "stop" : 1583905295449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1583905295449,
+      "stop" : 1583905295449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1583905295449,
+      "stop" : 1583905295449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-N122HT5C"
+  }, {
+    "name" : "thread",
+    "value" : "4432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'caseID': 'book_001', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Selenium3自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f45d5c83923a6413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583860982965,
+        "stop" : 1583860983375,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "d3578f8f921fbee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583860877125,
+        "stop" : 1583860879249,
+        "duration" : 2124
+      }
+    }, {
+      "uid" : "b4a870fdd2f4e00a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583856362499,
+        "stop" : 1583856362833,
+        "duration" : 334
+      }
+    }, {
+      "uid" : "ee2d9409fe174e8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583856324496,
+        "stop" : 1583856325318,
+        "duration" : 822
+      }
+    }, {
+      "uid" : "9b3eedbd7c7e0aca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583853197667,
+        "stop" : 1583853197994,
+        "duration" : 327
+      }
+    }, {
+      "uid" : "b29a9b760da9cb98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852688864,
+        "stop" : 1583852689146,
+        "duration" : 282
+      }
+    }, {
+      "uid" : "60cacce0709e325f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852619031,
+        "stop" : 1583852619406,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "3b9b73bf1b92d3aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852345126,
+        "stop" : 1583852345526,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "b1eaeb390b2094ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852142524,
+        "stop" : 1583852142945,
+        "duration" : 421
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f821365fc69ec2e3.json",
+  "parameterValues" : [ "{'caseID': 'book_001', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Selenium3自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "fac7bac1ff247e0c",
+  "name" : "test_login_book[datas2]",
+  "fullName" : "test_login_token_book#test_login_book",
+  "historyId" : "16bb5b3d985cfb6b32dae32919fd9d67",
+  "time" : {
+    "start" : 1583852143307,
+    "stop" : 1583852143881,
+    "duration" : 574
+  },
+  "description" : "获取excel中的请求参数并做序列化",
+  "descriptionHtml" : "<p>获取excel中的请求参数并做序列化</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1583852143305,
+      "stop" : 1583852143305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1583852142518,
+      "stop" : 1583852142518,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1583852142518,
+      "stop" : 1583852142518,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1583852142518,
+      "stop" : 1583852142518,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-N122HT5C"
+  }, {
+    "name" : "thread",
+    "value" : "19008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'caseID': 'book_003', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '接口测试自动化', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fac7bac1ff247e0c.json",
+  "parameterValues" : [ "{'caseID': 'book_003', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '接口测试自动化', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}

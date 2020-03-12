@@ -1,0 +1,16 @@
+#用户登录成功
+url: www.baidu.com
+method: post
+data:
+  username: 仙女
+  age: 18
+expect:
+  username: 仙女
+---
+url: www.baidu.com
+method: post
+data:
+  username: 仙女
+    age: 年龄不是int
+expect:
+    username: 仙女

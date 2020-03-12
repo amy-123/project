@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 11 13:41:35 CST 2020","Wed Mar 11 13:41:35 CST 2020","314","","test_login_token_book","","","","test_login_book[datas1]","获取excel中的请求参数并做序列化"
+"passed","Wed Mar 11 13:41:36 CST 2020","Wed Mar 11 13:41:36 CST 2020","153","","test_login_token_book","","","","test_login_book[datas4]","获取excel中的请求参数并做序列化"
+"passed","Wed Mar 11 13:41:35 CST 2020","Wed Mar 11 13:41:36 CST 2020","183","","test_login_token_book","","","","test_login_book[datas2]","获取excel中的请求参数并做序列化"
+"passed","Wed Mar 11 13:41:35 CST 2020","Wed Mar 11 13:41:35 CST 2020","198","","test_login_token_book","","","","test_login_book[datas0]","获取excel中的请求参数并做序列化"
+"passed","Wed Mar 11 13:41:36 CST 2020","Wed Mar 11 13:41:36 CST 2020","181","","test_login_token_book","","","","test_login_book[datas3]","获取excel中的请求参数并做序列化"
